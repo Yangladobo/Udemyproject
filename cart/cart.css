@@ -1,0 +1,519 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    position: absolute;
+    height: 40%;
+    margin-left: 1%;
+    margin-top: 1.8%;
+}
+
+.textone{
+    font-weight: lighter;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    margin-left: 140px;
+    font-size: 15px;
+}
+
+.textwo{
+    font-weight: lighter;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    margin-left: 270px;
+    font-size: 15px;
+}
+
+.textthree h6{
+    font-weight: lighter;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.iconone{
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+.buttonone{
+    margin-left: 15%;
+    margin-right: 50%;
+    margin-top: 15%;
+    margin-bottom: 25%;
+    border-radius: 50px;
+    width: 270%;
+    height: 60%;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border: thin solid #9194AC;
+    background: transparent;
+}
+
+.buttontwo{
+    padding-top: 26.8%;
+    padding-bottom: 26.8%;
+    margin-top: 63%;
+    margin-left: 50%;
+    width: 200%;
+    color: #6D28D2;
+    border: thin solid #6D28D2;
+    border-radius: 9%;
+    background: transparent;
+    font-weight: bolder;
+}
+
+.buttonthree{
+    padding-top: 25%;
+    padding-bottom: 23%;
+    margin-top: 50%;
+    margin-left: 140%;
+    width: 160%;
+    border-radius: 9%;
+    color: white;
+    background-color: #892DE1;
+    font-weight: bolder;
+}
+
+.buttonfour{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    margin-top: 175%;
+    margin-left: 740%;
+    width: 250%;
+    height: 40%;
+    border-radius: 9%;
+    border: thin solid #6D28D2;
+    background: transparent;
+}
+
+.shopping{
+    font-size: 3rem;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.courses{
+    margin-left: 3%;
+}
+
+.section{
+    border: thin solid #EEEEF4;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.section img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+
+.text{
+    text-align: center;
+    font-size: large;
+}
+
+.dbut{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    padding: 0.9%;
+    background-color: #6D28D2;
+    color: white;
+    border-radius: 4px;
+}
+
+.footer{
+    margin-top: 7%;
+}
+/* one */
+.footerone{
+    border-top: thin solid #B7B9CD;
+    border-bottom: thin solid #B7B9CD;
+    background-color: #2A2B3F;
+    display: flex;
+    text-align: center;
+    gap: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.footeronet{
+    width: 50%;
+    color: white;
+}
+
+.footeronet p{
+    font-size: larger;
+}
+
+.footeronet p span{
+    color: #5F96F0;
+}
+
+.footeronepic{
+    width: 50%;
+    display: flex;
+    gap: 2%;
+}
+
+/* two */
+.footertwo{
+    border: thin solid #2A2B3F;
+    background-color: #2A2B3F;
+}
+
+.anp{
+    font-size: larger;
+    color: white;
+    text-align: left;
+    padding-left: 1%;
+    margin-top: 3%;
+}
+
+.dgrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: white;
+    padding-left: 1%;
+}
+
+.pdifferent{
+    font-size: large;
+}
+
+/* three */
+.footerthree{
+    background-color: #202230;
+    color: white;
+    display: flex;
+    padding-left: 1%;
+}
+
+.doneone{
+    margin-right: 19.4%;
+}
+
+.donetwo{
+    margin-right: 14.9%;
+}
+
+.donethree{
+    margin-right: 12.5%;
+}
+
+/* four */
+.footerfour{
+    border-top: thin solid #B7B9CD;
+    background-color: #202230;
+    color: white;
+    display: flex;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.footerfour img {
+    width: 7%;
+    margin-right: 1.4%;
+}
+
+.almostone{
+    margin-right: 32%;
+}
+
+.almosttwo{
+    margin-right: 34%;
+}
+
+
+/* ============================================
+   RESPONSIVE MEDIA QUERIES
+   ============================================ */
+
+/* Large tablets and small desktops (900px - 1200px) */
+@media screen and (max-width: 1200px) {
+    .textone{
+        margin-left: 120px;
+    }
+    
+    .textwo{
+        margin-left: 200px;
+    }
+}
+
+/* Tablets (768px - 900px) */
+@media screen and (max-width: 900px) {
+    /* Header adjustments for smaller screens */
+    .textone{
+        margin-left: 100px;
+        font-size: 14px;
+    }
+    
+    .textwo{
+        margin-left: 150px;
+        font-size: 14px;
+    }
+    
+    .textthree h6{
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    
+    .buttonone{
+        width: 200%;
+        margin-left: 10%;
+    }
+    
+    .buttontwo{
+        width: 180%;
+        margin-left: 30%;
+    }
+    
+    .buttonthree{
+        width: 140%;
+        margin-left: 100%;
+    }
+    
+    .buttonfour{
+        margin-left: 500%;
+        width: 200%;
+    }
+    
+    /* Cart section adjustments */
+    .shopping{
+        font-size: 2.5rem;
+        margin-left: 5%;
+    }
+    
+    .courses{
+        margin-left: 5%;
+    }
+    
+    .section{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .section img{
+        width: 30%;
+    }
+    
+    .dbut{
+        padding: 1.5%;
+        font-size: 16px;
+    }
+    
+    /* Footer adjustments */
+    .dgrid{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+    .footerone{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .footeronet{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .footeronepic{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Mobile devices (below 768px) */
+@media screen and (max-width: 768px) {
+    /* Hide some header elements on mobile */
+    .textone, .textwo, .textthree, .buttonone, .buttonfour{
+        display: none;
+    }
+    
+    .header{
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    .logo{
+        position: static;
+        margin: 0;
+        height: 35px;
+    }
+    
+    .iconone{
+        margin-left: auto;
+        margin-top: 0;
+        order: 3;
+    }
+    
+    .buttontwo{
+        margin: 0 5px;
+        padding: 8px 15px;
+        width: auto;
+        order: 4;
+    }
+    
+    .buttonthree{
+        margin: 0 5px;
+        padding: 8px 15px;
+        width: auto;
+        order: 5;
+    }
+    
+    /* Cart section mobile */
+    .shopping{
+        font-size: 2rem;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    
+    .courses{
+        margin-left: 5%;
+        font-size: 16px;
+    }
+    
+    .section{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 20px 10px;
+    }
+    
+    .section img{
+        width: 50%;
+        max-width: 200px;
+    }
+    
+    .text{
+        font-size: medium;
+        padding: 0 10px;
+    }
+    
+    .dbut{
+        padding: 12px 24px;
+        font-size: 15px;
+        margin-bottom: 5%;
+    }
+    
+    /* Footer mobile layout */
+    .dgrid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 20px;
+    }
+    
+    .footerthree{
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    
+    .doneone, .donetwo, .donethree, .donefour{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .footerfour{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    
+    .footerfour img{
+        width: 15%;
+        min-width: 80px;
+    }
+    
+    .almostone, .almosttwo{
+        margin-right: 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+/* Small mobile (below 480px) */
+@media screen and (max-width: 480px) {
+    .shopping{
+        font-size: 1.75rem;
+    }
+    
+    .courses{
+        font-size: 14px;
+    }
+    
+    .buttontwo, .buttonthree{
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+    
+    .section img{
+        width: 60%;
+    }
+    
+    .text{
+        font-size: small;
+    }
+    
+    .dbut{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .dgrid{
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .footeronepic{
+        flex-wrap: wrap;
+    }
+    
+    .footeronepic img{
+        width: 40%;
+        max-width: 100px;
+    }
+}
+
+/* Very small screens (below 360px) */
+@media screen and (max-width: 360px) {
+    .logo{
+        height: 30px;
+    }
+    
+    .iconone{
+        font-size: 18px;
+    }
+    
+    .buttontwo, .buttonthree{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    
+    .shopping{
+        font-size: 1.5rem;
+    }
+    
+    .section img{
+        width: 70%;
+    }
+    
+    .dbut{
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,638 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    position: absolute;
+    height: 40%;
+    margin-left: 1%;
+    margin-top: 1.8%;
+}
+
+.textone{
+    font-weight: lighter;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    margin-left: 140px;
+    font-size: 15px;
+}
+
+.textwo{
+    font-weight: lighter;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    margin-left: 270px;
+    font-size: 15px;
+}
+
+.textthree h6{
+    font-weight: lighter;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.iconone{
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+.buttonone{
+    margin-left: 15%;
+    margin-right: 50%;
+    margin-top: 15%;
+    margin-bottom: 25%;
+    border-radius: 50px;
+    width: 270%;
+    height: 60%;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    border: thin solid #9194AC;
+    background: transparent;
+}
+
+.buttontwo{
+    padding-top: 26.8%;
+    padding-bottom: 26.8%;
+    margin-top: 63%;
+    margin-left: 50%;
+    width: 200%;
+    color: #6D28D2;
+    border: thin solid #6D28D2;
+    border-radius: 9%;
+    background: transparent;
+    font-weight: bolder;
+}
+
+.buttonthree{
+    padding-top: 25%;
+    padding-bottom: 23%;
+    margin-top: 50%;
+    margin-left: 140%;
+    width: 160%;
+    border-radius: 9%;
+    color: white;
+    background-color: #892DE1;
+    font-weight: bolder;
+}
+
+.buttonfour{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    margin-top: 175%;
+    margin-left: 740%;
+    width: 250%;
+    height: 40%;
+    border-radius: 9%;
+    border: thin solid #6D28D2;
+    background: transparent;
+}
+
+.sectione{
+    display: flex;
+    gap: 8%;
+}
+
+.picture{
+    width: 50%;
+    padding-top: 5%;
+}
+
+.picture img{
+    width: 97%;
+}
+
+.text{
+    margin-top: 6%;
+    width: 50%;
+    text-align: center;
+}
+
+.text h1{
+    width: 57%;
+}
+
+.input [type="email"]{
+    border: thin solid #9194AC;
+    display: block;
+    background-color: white;
+    width: 69.7%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 2.5%;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 5.5%;
+}
+
+.input [type="email"]::placeholder{
+    color: black;
+}
+
+.continue{
+    display: block;
+    margin: 0;
+    background-color: #6D28D2;
+    font-weight: bold;
+    color: white;
+    width: 69.7%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: medium;
+    margin-top: 3%;
+    border-radius: 4px;
+}
+
+.other{
+    text-align: left;
+    margin-top: 5%;
+}
+
+.dicons{
+    display: flex;
+    margin-top: 5%;
+    gap: 5%;
+    margin-left: 18%;
+}
+
+.google{
+    border: thin solid #6D28D2;
+    border-radius: 4px;
+    width: 10%;
+    background: transparent;
+}
+
+.fa-google{
+    font-size: x-large;
+}
+
+.facebook{
+    border: thin solid #6D28D2;
+    border-radius: 4px;
+    width: 10%;
+    background: transparent;
+}
+
+.fa-facebook{
+    font-size: x-large;
+    color: #1877F2;
+}
+
+.apple{
+    border: thin solid #6D28D2;
+    border-radius: 4px;
+    width: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    background: transparent;
+}
+
+.fa-apple{
+    font-size: x-large;
+}
+
+.signup{
+    display: block;
+    margin: 0;
+    margin-top: 10%;
+    background-color: #F6F7F9;
+    font-weight: bold;
+    color: #583B45;
+    width: 69.7%;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    font-weight: lighter;
+    font-size: medium;
+    margin-top: 3%;
+    border-bottom: thin solid #D1D2E0;
+}
+
+.signup span{
+    text-decoration: underline;
+    color: #602ABD;
+    font-weight: bold;
+}
+
+.logto{
+    display: block;
+    margin: 0;
+    margin-top: 10%;
+    background-color: #F6F7F9;
+    font-weight: bold;
+    color: #602ABB;
+    width: 69.7%;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+    font-size: medium;
+    margin-top: 0%;
+    text-decoration: underline;
+}
+
+.footer{
+    margin-top: 5%;
+}
+/* one */
+.footerone{
+    border-top: thin solid #B7B9CD;
+    border-bottom: thin solid #B7B9CD;
+    background-color: #2A2B3F;
+    display: flex;
+    text-align: center;
+    gap: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.footeronet{
+    width: 50%;
+    color: white;
+}
+
+.footeronet p{
+    font-size: larger;
+}
+
+.footeronet p span{
+    color: #5F96F0;
+}
+
+.footeronepic{
+    width: 50%;
+    display: flex;
+    gap: 2%;
+}
+
+/* two */
+.footertwo{
+    border: thin solid #2A2B3F;
+    background-color: #2A2B3F;
+}
+
+.anp{
+    font-size: larger;
+    color: white;
+    text-align: left;
+    padding-left: 1%;
+    margin-top: 3%;
+}
+
+.dgrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: white;
+    padding-left: 1%;
+}
+
+.pdifferent{
+    font-size: large;
+}
+
+/* three */
+.footerthree{
+    background-color: #202230;
+    color: white;
+    display: flex;
+    padding-left: 1%;
+}
+
+.doneone{
+    margin-right: 19.4%;
+}
+
+.donetwo{
+    margin-right: 14.9%;
+}
+
+.donethree{
+    margin-right: 12.5%;
+}
+
+/* four */
+.footerfour{
+    border-top: thin solid #B7B9CD;
+    background-color: #202230;
+    color: white;
+    display: flex;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.footerfour img {
+    width: 7%;
+    margin-right: 1.4%;
+}
+
+.almostone{
+    margin-right: 32%;
+}
+
+.almosttwo{
+    margin-right: 34%;
+}
+
+
+/* ============================================
+   RESPONSIVE MEDIA QUERIES
+   ============================================ */
+
+/* Large tablets and small desktops (900px - 1200px) */
+@media screen and (max-width: 1200px) {
+    .textone{
+        margin-left: 120px;
+    }
+    
+    .textwo{
+        margin-left: 200px;
+    }
+}
+
+/* Tablets (768px - 900px) */
+@media screen and (max-width: 900px) {
+    /* Header adjustments for smaller screens */
+    .textone{
+        margin-left: 100px;
+        font-size: 14px;
+    }
+    
+    .textwo{
+        margin-left: 150px;
+        font-size: 14px;
+    }
+    
+    .textthree h6{
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    
+    .buttonone{
+        width: 200%;
+        margin-left: 10%;
+    }
+    
+    .buttontwo{
+        width: 180%;
+        margin-left: 30%;
+    }
+    
+    .buttonthree{
+        width: 140%;
+        margin-left: 100%;
+    }
+    
+    .buttonfour{
+        margin-left: 500%;
+        width: 200%;
+    }
+    
+    /* Main section - stack vertically */
+    .sectione{
+        flex-direction: column;
+        gap: 3%;
+    }
+    
+    .picture{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .picture img{
+        width: 60%;
+        max-width: 400px;
+    }
+    
+    .text{
+        width: 100%;
+        margin-top: 3%;
+    }
+    
+    .text h1{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 500px;
+    }
+    
+    .input [type="email"]{
+        width: 90%;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .continue{
+        width: 90%;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .dicons{
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    
+    .signup, .logto{
+        width: 90%;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* Footer adjustments */
+    .dgrid{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+    .footerone{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .footeronet{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .footeronepic{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Mobile devices (below 768px) */
+@media screen and (max-width: 768px) {
+    /* Hide some header elements on mobile */
+    .textone, .textwo, .textthree, .buttonone, .buttonfour{
+        display: none;
+    }
+    
+    .header{
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    .logo{
+        position: static;
+        margin: 0;
+        height: 35px;
+    }
+    
+    .iconone{
+        margin-left: auto;
+        margin-top: 0;
+        order: 3;
+    }
+    
+    .buttontwo{
+        margin: 0 5px;
+        padding: 8px 15px;
+        width: auto;
+        order: 4;
+    }
+    
+    .buttonthree{
+        margin: 0 5px;
+        padding: 8px 15px;
+        width: auto;
+        order: 5;
+    }
+    
+    /* Hide picture on mobile */
+    .picture{
+        display: none;
+    }
+    
+    .text{
+        width: 100%;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+    
+    .text h1{
+        width: 100%;
+        font-size: 24px;
+    }
+    
+    .input [type="email"]{
+        width: 100%;
+        padding: 12px;
+    }
+    
+    .continue{
+        width: 100%;
+        padding: 12px;
+    }
+    
+    .dicons{
+        margin-left: 0;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .google, .facebook, .apple{
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+    
+    .signup, .logto{
+        width: 100%;
+        padding: 12px;
+    }
+    
+    /* Footer mobile layout */
+    .dgrid{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 20px;
+    }
+    
+    .footerthree{
+        flex-direction: column;
+        padding: 30px 20px;
+    }
+    
+    .doneone, .donetwo, .donethree, .donefour{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .footerfour{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    
+    .footerfour img{
+        width: 15%;
+        min-width: 80px;
+    }
+    
+    .almostone, .almosttwo{
+        margin-right: 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+/* Small mobile (below 480px) */
+@media screen and (max-width: 480px) {
+    .text h1{
+        font-size: 20px;
+    }
+    
+    .buttontwo, .buttonthree{
+        font-size: 13px;
+        padding: 6px 12px;
+    }
+    
+    .dgrid{
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .footeronepic{
+        flex-wrap: wrap;
+    }
+    
+    .footeronepic img{
+        width: 40%;
+        max-width: 100px;
+    }
+}
+
+/* Very small screens (below 360px) */
+@media screen and (max-width: 360px) {
+    .logo{
+        height: 30px;
+    }
+    
+    .iconone{
+        font-size: 18px;
+    }
+    
+    .buttontwo, .buttonthree{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    
+    .text h1{
+        font-size: 18px;
+    }
+    
+    .google, .facebook, .apple{
+        width: 45px;
+        height: 45px;
+    }
+}
